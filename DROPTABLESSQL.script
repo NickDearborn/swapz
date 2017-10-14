@@ -1,0 +1,9 @@
+drop table credentials;
+drop table review;
+drop table image;
+drop table referral;
+drop table viewed;
+drop table product;
+drop table user;
+drop table company;
+drop table foo;
