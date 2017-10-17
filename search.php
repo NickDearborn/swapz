@@ -341,7 +341,7 @@ if(isset($_GET['q']) && !empty($_GET['q'])) {
                 	<!-- <span class="sale"></span> -->
                     </div>
                     <div class="price-label">New</div>
-                    <a href="details.php?pid=' . $results[$counter][3] . '"><img src="uploads/mid/' . $imgM . '" alt="1"/></a>
+                    <a href="details.php?pid=' . $results[$counter][3] . '"><img src="' . UPLOADED_IMAGE_MID_LOC . $imgM . '" alt="1"/></a>
                     <div class="footer">
                       <a href="details.php?pid=' . $results[$counter][3] . '">' . $results[$counter][0] . '</a>
                      <span><b>by ' . $results[$counter][5]  . '</b>
